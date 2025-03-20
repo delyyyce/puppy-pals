@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Puppy Pals!</h1>
       {puppies.map((puppy) => (
         <p
           onClick={() => {
